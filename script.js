@@ -12,6 +12,11 @@ let start = (ss) => {
     setTimeout(ff,100);
 };
 
-let pause = (ss) => {
+let pause = (i) => {
     clearTimeout(sToID);
+};
+
+let rond = (i) => {
+    sec=document.getElementById('s');
+    sec.innerHTML = i;
 };
