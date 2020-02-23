@@ -1,4 +1,10 @@
-.contaner{
-    display: flexbox;
+#contaner{
+    display: flex;
     background-color: blueviolet;
+    border: 3px solid rgb(3, 49, 49);
+    background-blend-mode: difference;
+    width: 30%;
+    height: 17%;
+    padding:3%;
+    /* object-position: auto; */
 }
