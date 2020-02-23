@@ -1,5 +1,5 @@
-#contaner{
-    display: flex;
+.contaner{
+    display: block;
     background-color: blueviolet;
     border: 3px solid rgb(3, 49, 49);
     background-blend-mode: difference;
@@ -7,4 +7,11 @@
     height: 17%;
     padding:3%;
     /* object-position: auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: auto;
+}
+
+.root{
+    background-color: rgb(29, 167, 98);
 }
